@@ -12,6 +12,8 @@ function sleep(ms) {
 }
 
 function remove_ID(ID) { 
-    let Shorts_Container = document.getElementById(ID);
-    Shorts_Container.remove();
+    let Shorts_Container = document.getElementById(ID)
+    if (Shorts_Container) { 
+        Shorts_Container.remove();
+    }
 }
