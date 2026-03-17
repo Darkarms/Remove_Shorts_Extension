@@ -1,9 +1,18 @@
 {
   "manifest_version": 2,
-  "name": "Darks_Shorts_Removal",
+  "name": "Darks_Shorts_Remover",
   "version": "1.0",
 
   "description": "Removes Shorts from youtube feed.",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@Darks-Shorts-Remover",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
 
   "content_scripts": [
     {
