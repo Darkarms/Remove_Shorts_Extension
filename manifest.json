@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Darks_Shorts_Removal",
+  "version": "1.0",
+
+  "description": "Removes Shorts from youtube feed.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["Scripts/Remove_Shorts.js"]
+    }
+  ]
+}
